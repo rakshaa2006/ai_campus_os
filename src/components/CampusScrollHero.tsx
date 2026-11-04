@@ -253,7 +253,7 @@ export default function CampusScrollHero() {
   }, [reducedMotion]);
 
   return (
-    <main>
+    <main className="landing">
       <div
         ref={trackRef}
         className={`track${reducedMotion ? " reduced-motion" : ""}`}
